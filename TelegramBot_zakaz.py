@@ -11,7 +11,7 @@ Text = TEXT
 @bot.message_handler(commands=['start'])
 def start_func(message):
     bot.send_message(message.from_user.id,
-                     'Juda yaxshi birgalikda Buyurtma beramiz?😄',
+                     'Juda yaxshi birgalikda Buyurtma beramiz😄',
                      reply_markup=home_page_button()
                      )
 
